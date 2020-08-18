@@ -1,29 +1,95 @@
 <!DOCTYPE html>
-<html>
-  <head>
-  <!DOCTYPE html>
-<html>
-  <head>
-    <noscript>I bet you are having fun on the web</noscript>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Fenil Gandhi</title>
-    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai:100,200,300" rel="stylesheet">
-    <link rel="stylesheet" href="static/main.css">
-  </head>
-  <body>
-  <div class="info">
-      <a href="/"><img class="user-avatar" src="static/full_avatar.png" ></a>
-      <a href="https://github.com/fenilgandhi"><img class="avatar" src="static/octocat.png"><span class="tooltip">GitHub</span></a>
-      <a href="https://devrant.com/users/coldfire"><img class="avatar" src="static/devRant.png" ><span class="tooltip">devRant</span></a>
-      <a href="/resume.pdf"><img class="avatar" src="static/resume.png" ><span class="tooltip">Resume</span></a>
+<html lang="en">
+
+<head>
+  <title>Fenil Gandhi's Portfolio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&family=Forum&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="static/main.css">
+</head>
+
+<body>
+  <noscript>
+    <h1 class="warning">Your javascript is disabled. Please enable it for better experience.</h1>
+    <img src="static/noscript.gif">
+  </noscript>
+
+
+  <div class="websiteContent">
+    <div class="websiteHeader">
+      <h2>Fenil gandhi</h2>
+      <h5>Pythonista | Autodidact</h5>
+    </div>
+    <ul class="webAddresses">
+      <li>
+        <a href="https://linkedin.com/in/fenilG">
+          <img
+            src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSI1MTIiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB3aWR0aD0iNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOmNjPSJodHRwOi8vY3JlYXRpdmVjb21tb25zLm9yZy9ucyMiIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6aW5rc2NhcGU9Imh0dHA6Ly93d3cuaW5rc2NhcGUub3JnL25hbWVzcGFjZXMvaW5rc2NhcGUiIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyIgeG1sbnM6c29kaXBvZGk9Imh0dHA6Ly9zb2RpcG9kaS5zb3VyY2Vmb3JnZS5uZXQvRFREL3NvZGlwb2RpLTAuZHRkIiB4bWxuczpzdmc9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZGVmcyBpZD0iZGVmczEyIi8+PGcgaWQ9Imc1ODkxIj48cmVjdCBoZWlnaHQ9IjUxMiIgaWQ9InJlY3QyOTg3IiByeD0iNjQiIHJ5PSI2NCIgc3R5bGU9ImZpbGw6IzAwODNiZTtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6bm9uZSIgd2lkdGg9IjUxMiIgeD0iMCIgeT0iNS42ODQzNDE5ZS0wMTQiLz48ZyBpZD0iZzktMSIgdHJhbnNmb3JtPSJtYXRyaXgoMS41NTM3OTQ2LDAsMCwxLjU1Mzc5NDYsLTE0MC44NzMzMiwtMTMyLjY0NTUyKSI+PHJlY3QgaGVpZ2h0PSIxNjYuMDIxIiBpZD0icmVjdDExIiBzdHlsZT0iZmlsbDojZmZmZmZmIiB3aWR0aD0iNTUuMTk0IiB4PSIxMjkuOTU3IiB5PSIyMDAuMzU2OTkiLz48cGF0aCBkPSJtIDE1Ny45MjcsMTIwLjMwMyBjIC0xOC44ODQsMCAtMzEuMjIyLDEyLjQxNSAtMzEuMjIyLDI4LjY4NyAwLDE1LjkzIDExLjk2MywyOC42ODcgMzAuNDkxLDI4LjY4NyBoIDAuMzU3IGMgMTkuMjQ1LDAgMzEuMjI0LC0xMi43NTcgMzEuMjI0LC0yOC42ODcgLTAuMzU3LC0xNi4yNzIgLTExLjk3OCwtMjguNjg3IC0zMC44NSwtMjguNjg3IHoiIGlkPSJwYXRoMTMtMCIgc3R5bGU9ImZpbGw6I2ZmZmZmZiIvPjxwYXRoIGQ9Im0gMzIwLjYwNCwxOTYuNDUzIGMgLTI5LjI3NywwIC00Mi4zOTEsMTYuMTAxIC00OS43MzQsMjcuNDEgdiAtMjMuNTA2IGggLTU1LjE4IGMgMC43MzIsMTUuNTczIDAsMTY2LjAyMSAwLDE2Ni4wMjEgaCA1NS4xNzkgViAyNzMuNjYgYyAwLC00Ljk2MyAwLjM1NywtOS45MjQgMS44MiwtMTMuNDcxIDMuOTgyLC05LjkxMSAxMy4wNjgsLTIwLjE3OCAyOC4zMTMsLTIwLjE3OCAxOS45NTksMCAyNy45NTUsMTUuMjMgMjcuOTU1LDM3LjUzOSB2IDg4LjgyOCBoIDU1LjE4MiB2IC05NS4yMDYgYyAwLC01MC45OTYgLTI3LjIyNywtNzQuNzE5IC02My41MzUsLTc0LjcxOSB6IiBpZD0icGF0aDE1IiBzdHlsZT0iZmlsbDojZmZmZmZmIi8+PC9nPjwvZz48cGF0aCBkPSJtIDE4LjY5NTc0LDQ5My4yODc1MSBjIDExLjU2Nzk4LDExLjU2NzkgMjcuNTc2MDYsMTguNzEyNSA0NS4zMDQwNCwxOC43MTI1IGwgMzg0LjAxMjU1LC0wLjAyOSBjIDM1LjQ1NiwwIDYzLjk4NzcsLTI4LjUzMTYgNjMuOTg3NywtNjMuOTg3NTkgbCAwLC0zODMuOTgzNjg1IGMgMCwtMTcuNzI3OTggLTcuMTQ0NiwtMzMuNzM2MDMgLTE4LjcxMjYsLTQ1LjMwNDAzIEwgMTguNjk1NzQsNDkzLjI4NzUxIHoiIGlkPSJyZWN0Mjk4NC0xIiBzdHlsZT0iZmlsbDojMDAwMDAwO2ZpbGwtb3BhY2l0eTowLjMwMTk2MDc4O2ZpbGwtcnVsZTpub256ZXJvO3N0cm9rZTpub25lIi8+PC9zdmc+"
+            alt="Linkedin Logo" />
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/fenilgandhi">
+          <img
+            src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSI1MTIiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB3aWR0aD0iNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOmNjPSJodHRwOi8vY3JlYXRpdmVjb21tb25zLm9yZy9ucyMiIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6aW5rc2NhcGU9Imh0dHA6Ly93d3cuaW5rc2NhcGUub3JnL25hbWVzcGFjZXMvaW5rc2NhcGUiIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyIgeG1sbnM6c29kaXBvZGk9Imh0dHA6Ly9zb2RpcG9kaS5zb3VyY2Vmb3JnZS5uZXQvRFREL3NvZGlwb2RpLTAuZHRkIiB4bWxuczpzdmc9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZGVmcyBpZD0iZGVmczEyIi8+PGcgaWQ9Imc0NjgwIj48cmVjdCBoZWlnaHQ9IjUxMiIgaWQ9InJlY3QyOTg3IiByeD0iNjQiIHJ5PSI2NCIgc3R5bGU9ImZpbGw6IzUxNTE1MTtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6bm9uZSIgd2lkdGg9IjUxMiIgeD0iMCIgeT0iMCIvPjxwYXRoIGQ9Im0gMTExLjc5NzM2LDIzOS4xNjM5NyBjIC0wLjYzNDksMCA2Ljk2NDgsMTYuMDg0OSA3LjE3NTQsMTYuMDg0OSAxNi41OTIzLDI5LjU5NjUzIDQ4LjU2NjIsNDguMDAxMTEgMTAyLjUxNjMsNTMuMDgwOTUgLTcuNzAwNSw1Ljc0NTc4IC0xNi45NDk1LDE2LjY1ODg5IC0xOC4yMzI1LDI5LjI1MzkyIC05LjY3OTIsNi4xNDQ3NSAtMjkuMTQ4Niw4LjE3OTY1IC00NC4yNzgzLDMuNDkyODQgLTIxLjIxMjIsLTYuNTg1MjQgLTI5LjMzMTEsLTQ3Ljg0NTM3IC02MS4wODcxMDMsLTQxLjk2NDYzIC02Ljg3LDEuMjY2NjMgLTUuNTA1Niw1LjcyNjUxIDAuNDM2LDkuNTE0NSA5LjY4NTAwMyw2LjE1MDY4IDE4Ljc5MDMwMywxMy44NTU3MSAyNS44MDg1MDMsMzAuMjUzNTcgNS40MDQ3LDEyLjU3ODcxIDE2Ljc1MDksMzUuMDczODUgNTIuNjMzMSwzNS4wNzM4NSAxNC4yMjgsMCAyNC4yMDgyLC0xLjY5MjI4IDI0LjIwODIsLTEuNjkyMjggMCwwIDAuMjY4NCwzMi4xMzcxOSAwLjI2ODQsNDQuNjI4MzggMCwxNC40MTc4NCAtMTkuNzkxMywxOC40NzQzIC0xOS43OTEzLDI1LjQwMjE1IDAsMi43Mzc5MiA2LjU1NywyLjk5NzQ4IDExLjgxNjMsMi45OTc0OCAxMC40MDE1LDAgMzIuMDM5MywtOC41MzcwOSAzMi4wMzkzLC0yMy41MDgxNSAwLC0xMS44ODkwMyAwLjE5ODgsLTUxLjg5NzM4IDAuMTk4OCwtNTguODk0OTQgMCwtMTUuMjg5OTQgOC4zNDI5LC0yMC4xNDEzNiA4LjM0MjksLTIwLjE0MTM2IDAsMCAxLjAzMjIsODEuNjY1OTYgLTEuOTg5LDkyLjYxNzY0IC0zLjU1NTEsMTIuODY3OTIgLTkuOTY2OSwxMS4wNDA2NyAtOS45NjY5LDE2Ljc4NjQzIDAsOC41NDc0NyAyNi4wNTE4LDIuMDg2ODIgMzQuNjg4MywtMTYuNjYwMzYgNi42Njk3LC0xNC41OTEzNyAzLjc1MjQsLTk0LjcwNzQzIDMuNzUyNCwtOTQuNzA3NDMgbCA3LjExNjIsLTAuMTQ4MzEgYyAwLDAgMC40MDE4LDM2LjY3NDE5IDAuMTU0Miw1My40NDcyOSAtMC4yNDkxLDE3LjM2MTkxIC0xLjQ1MDUsMzkuMzE1NyA5LjA0MTQsNDkuNjY4MTggNi44OTM3LDYuODAzMjcgMjkuMjI4NywxOC43NjA1NCAyOS4yMjg3LDcuODM3MDMgMCwtNi4zNDM0OSAtMTIuMjM3NiwtMTEuNTQ5NCAtMTIuMjM3NiwtMjguNzExMDcgdiAtNzkuMDAyMiBjIDkuNzgsMCA4LjMwODcsMjUuOTY1NzUgOC4zMDg3LDI1Ljk2NTc1IGwgMC43MTA0LDQ4LjI3ODQ2IGMgMCwwIC0yLjE1NSwxNy41ODE0MSAxOS4zNjI4LDI0LjkzMDUgNy41OTUyLDIuNjIyMjMgMjMuODE1MSwzLjMxMDQxIDI0LjU4NzksLTEuMDU0NTQgMC43NjgyLC00LjM4ODY4IC0xOS41NTU2LC0xMC45MTQ2IC0xOS43NDI0LC0yNC41NDE5IC0wLjEyNDEsLTguMjkzODYgMC4zODI2LC0xMy4xNDM4IDAuMzgyNiwtNDkuMjQyNTIgMCwtMzYuMTAwMjEgLTQuOTM4OSwtNDkuNDM2ODEgLTIyLjEzMDMsLTYwLjA2NjY1IDUzLjAzMzUsLTUuMzQ5NzYgODUuODcwNywtMTguMjUzMjkgMTAxLjg2MjIsLTUyLjc4MjgyIDEuMjQyOSwwLjAyNTMgNi41MjI5LC0xNi4xMjc5MiA1LjgzNDcsLTE2LjEyNzkyIDMuNTg2MywtMTMuMDM4NDkgNS41NDExLC0yOC40NjMzOSA1LjkwMzEsLTQ2LjcyMjYyIC0wLjA4OCwtNDkuNTM5MTUgLTI0LjIwMjMsLTY3LjA1MDg3IC0yOC44MzQyLC03NS4yNzA1NSA2LjgyODQsLTM3LjUwNzcyMyAtMS4xNDY2LC01NC41NTY2OTMgLTQuODQ3LC02MC40MTUxODMgLTEzLjY3MDQsLTQuNzc1NzkgLTQ3LjU0NDQsMTIuMjkyNDYgLTY2LjA2NDYsMjQuMzA5MDUgLTMwLjE1NzEsLTguNjYxNjggLTkzLjk0MzYsLTcuODM1NTYgLTExNy44NjQsMi4yMzUxMiAtNDQuMTMxNSwtMzEuMDU4OTIgLTY3LjQ4NCwtMjYuMjk3OTcgLTY3LjQ4NCwtMjYuMjk3OTcgMCwwIC0xNS4wODk3LDI2LjU3NjgyIC0zLjk4NjgsNjUuNDcyNzczIC0xNC41MTg1LDE4LjE5MjQ4IC0yNS4zNDQyLDMxLjA1NTk2IC0yNS4zNDQyLDY1LjE2NzI0IDAuMDE0LDE5LjI0MTA5IDIuMzE2NiwzNi40Mzk4NCA3LjUwMzQsNTEuNDU1NCB6IiBpZD0icGF0aDktNSIgc3R5bGU9ImZpbGw6I2ZmZmZmZiIvPjwvZz48cGF0aCBkPSJtIDE4LjY5NTc0LDQ5My4yODc1MSBjIDExLjU2Nzk4LDExLjU2NzkgMjcuNTc2MDYsMTguNzEyNSA0NS4zMDQwNCwxOC43MTI1IGwgMzg0LjAxMjU1LC0wLjAyOSBjIDM1LjQ1NiwwIDYzLjk4NzcsLTI4LjUzMTYgNjMuOTg3NywtNjMuOTg3NTkgbCAwLC0zODMuOTgzNjg1IGMgMCwtMTcuNzI3OTggLTcuMTQ0NiwtMzMuNzM2MDMgLTE4LjcxMjYsLTQ1LjMwNDAzIEwgMTguNjk1NzQsNDkzLjI4NzUxIHoiIGlkPSJyZWN0Mjk4NC0xIiBzdHlsZT0iZmlsbDojMDAwMDAwO2ZpbGwtb3BhY2l0eTowLjMwMTk2MDc4O2ZpbGwtcnVsZTpub256ZXJvO3N0cm9rZTpub25lIi8+PC9zdmc+"
+            alt="Github Logo" />
+        </a>
+      </li>
+      <li>
+        <a href="mailto:hey@fenilgandhi.tech?body=Hi%20Fenil,">
+          <img
+            src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSI1MTIiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB3aWR0aD0iNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOmNjPSJodHRwOi8vY3JlYXRpdmVjb21tb25zLm9yZy9ucyMiIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6aW5rc2NhcGU9Imh0dHA6Ly93d3cuaW5rc2NhcGUub3JnL25hbWVzcGFjZXMvaW5rc2NhcGUiIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyIgeG1sbnM6c29kaXBvZGk9Imh0dHA6Ly9zb2RpcG9kaS5zb3VyY2Vmb3JnZS5uZXQvRFREL3NvZGlwb2RpLTAuZHRkIiB4bWxuczpzdmc9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZGVmcyBpZD0iZGVmczEyIi8+PGcgaWQ9Imc1OTU2Ij48cmVjdCBoZWlnaHQ9IjUxMiIgaWQ9InJlY3QyOTg3IiByeD0iNjQiIHJ5PSI2NCIgc3R5bGU9ImZpbGw6I2QwNDIyYTtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6bm9uZSIgd2lkdGg9IjUxMiIgeD0iMCIgeT0iMCIvPjxnIGlkPSJnOS00IiB0cmFuc2Zvcm09Im1hdHJpeCgxLjUxODM0MzUsMCwwLDEuNTE4MzQzNSwtMTMyLjk2ODQ4LC0xMTMuNDcyOTUpIj48ZyBpZD0iZzExIj48cGF0aCBkPSJtIDI2My4yLDI2Mi4wMiAtMTIuMzU1LC05LjU5NSBjIC0zLjc2MiwtMy4xMjEgLTguOTEsLTcuMjQgLTguOTEsLTE0Ljc3OSAwLC03LjU3MSA1LjE0OCwtMTIuMzg1IDkuNjEyLC0xNi44NDEgMTQuMzkzLC0xMS4zMjkgMjguNzcxLC0yMy4zODMgMjguNzcxLC00OC43OTEgMCwtMjYuMTI1IC0xNi40MzgsLTM5Ljg2NiAtMjQuMzE3LC00Ni4zODkgaCAyMS4yNDMgbCAyMi4yOTUsLTE0LjAwOCBoIC02Ny41NDggYyAtMTguNTM1LDAgLTQ1LjI0Niw0LjM4NiAtNjQuODAyLDIwLjUzMSAtMTQuNzQzLDEyLjcxNCAtMjEuOTMsMzAuMjQ5IC0yMS45Myw0Ni4wMzQgMCwyNi43OTMgMjAuNTc2LDUzLjk1NSA1Ni45MDMsNTMuOTU1IDMuNDM0LDAgNy4xODUsLTAuMzM3IDEwLjk2MiwtMC42ODggLTEuNjk3LDQuMTI4IC0zLjQxMyw3LjU2NSAtMy40MTMsMTMuNCAwLDEwLjY0IDUuNDcsMTcuMTY4IDEwLjI5LDIzLjM0NiAtMTUuNDM0LDEuMDY0IC00NC4yNTIsMi43NzEgLTY1LjQ5OCwxNS44MjkgLTIwLjIyOSwxMi4wMzIgLTI2LjM4OSwyOS41NDIgLTI2LjM4OSw0MS45MDMgMCwyNS40NCAyMy45ODEsNDkuMTM1IDczLjcsNDkuMTM1IDU4Ljk2NSwwIDkwLjE3NiwtMzIuNjIzIDkwLjE3NiwtNjQuOTIyIDAuMDEsLTIzLjczMiAtMTMuNywtMzUuNDEgLTI4Ljc5LC00OC4xMiB6IG0gLTQ0LjkwOSwtMzkuNTEgYyAtMjkuNDk3LDAgLTQyLjg2MSwtMzguMTMxIC00Mi44NjEsLTYxLjE0MSAwLC04Ljk1OSAxLjY5NSwtMTguMjA2IDcuNTMxLC0yNS40MyA1LjUsLTYuODc5IDE1LjA3NywtMTEuMzQ0IDI0LjAxOCwtMTEuMzQ0IDI4LjQzNiwwIDQzLjE4NCwzOC40NzUgNDMuMTg0LDYzLjIxOSAwLDYuMTkxIC0wLjY4MiwxNy4xNjEgLTguNTY2LDI1LjA5NSAtNS41MTYsNS40OTkgLTE0Ljc0Miw5LjYwMSAtMjMuMzA2LDkuNjAxIHogbSAwLjMzNSwxMzguMTU2IGMgLTM2LjY3OSwwIC02MC4zMzIsLTE3LjU0NyAtNjAuMzMyLC00MS45NDMgMCwtMjQuMzkxIDIxLjkzLC0zMi42NDIgMjkuNDc5LC0zNS4zNzMgMTQuMzg5LC00Ljg0NCAzMi45MDksLTUuNTE5IDM1Ljk5OSwtNS41MTkgMy40MjgsMCA1LjE0MywwIDcuODcxLDAuMzQ1IDI2LjA3OCwxOC41NTUgMzcuMzk4LDI3LjgwNyAzNy4zOTgsNDUuMzc1IDAsMjEuMjcxIC0xNy40OTQsMzcuMTE1IC01MC40MTUsMzcuMTE1IHoiIGlkPSJwYXRoMTMtNyIgc3R5bGU9ImZpbGw6I2ZmZmZmZiIvPjxwb2x5Z29uIGlkPSJwb2x5Z29uMTUiIHBvaW50cz0iMzQ5Ljc4LDI3My43MDMgMzQ5Ljc4LDIzOS4xNDIgMzg0LjI0NSwyMzkuMTQyIDM4NC4yNDUsMjIxLjk4NyAzNDkuNzgsMjIxLjk4NyAzNDkuNzgsMTg3LjYzNCAzMzIuODEyLDE4Ny42MzQgMzMyLjgxMiwyMjEuOTg3IDI5OC41MTcsMjIxLjk4NyAyOTguNTE3LDIzOS4xNDIgMzMyLjgxMiwyMzkuMTQyIDMzMi44MTIsMjczLjcwMyAiIHN0eWxlPSJmaWxsOiNmZmZmZmYiLz48L2c+PC9nPjwvZz48cGF0aCBkPSJtIDE4LjY5NTc0LDQ5My4yODc1MSBjIDExLjU2Nzk4LDExLjU2NzkgMjcuNTc2MDYsMTguNzEyNSA0NS4zMDQwNCwxOC43MTI1IGwgMzg0LjAxMjU1LC0wLjAyOSBjIDM1LjQ1NiwwIDYzLjk4NzcsLTI4LjUzMTYgNjMuOTg3NywtNjMuOTg3NTkgbCAwLC0zODMuOTgzNjg1IGMgMCwtMTcuNzI3OTggLTcuMTQ0NiwtMzMuNzM2MDMgLTE4LjcxMjYsLTQ1LjMwNDAzIEwgMTguNjk1NzQsNDkzLjI4NzUxIHoiIGlkPSJyZWN0Mjk4NC0xIiBzdHlsZT0iZmlsbDojMDAwMDAwO2ZpbGwtb3BhY2l0eTowLjMwMTk2MDc4O2ZpbGwtcnVsZTpub256ZXJvO3N0cm9rZTpub25lIi8+PC9zdmc+"
+            alt="Gmail Logo" />
+        </a>
+      </li>
+      <li>
+        <a href="/Resume-Fenil-Gandhi.pdf">
+          <img
+            src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSI1MTIiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB3aWR0aD0iNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOmNjPSJodHRwOi8vY3JlYXRpdmVjb21tb25zLm9yZy9ucyMiIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6aW5rc2NhcGU9Imh0dHA6Ly93d3cuaW5rc2NhcGUub3JnL25hbWVzcGFjZXMvaW5rc2NhcGUiIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyIgeG1sbnM6c29kaXBvZGk9Imh0dHA6Ly9zb2RpcG9kaS5zb3VyY2Vmb3JnZS5uZXQvRFREL3NvZGlwb2RpLTAuZHRkIiB4bWxuczpzdmc9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZGVmcyBpZD0iZGVmczEyIi8+PGcgaWQ9ImczMzMyIj48cmVjdCBoZWlnaHQ9IjUxMiIgaWQ9InJlY3QyOTg3IiByeD0iNjQiIHJ5PSI2NCIgc3R5bGU9ImZpbGw6IzE4MmVmNTtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6bm9uZSIgd2lkdGg9IjUxMiIgeD0iMCIgeT0iMCIvPjxwb2x5Z29uIGlkPSJQaW5ib2FyZCIgcG9pbnRzPSIzMS40MjQsNSAzLjAwMSwzNC4wNzYgMTUuODU1LDMzLjM4NSAzOC44NjMsNjEuNzY4IDM2LjE1OCw3Ni45OTggNTMuMDcxLDU5LjY5MyA5My4wMDEsOTUgNTcuODE0LDU1LjUzNiA3NS40LDM2Ljg1IDU4LjQ4Niw0MSAzMS40MjQsMTYuMDc4ICIgc3R5bGU9ImZpbGw6I2ZmZmZmZjtmaWxsLW9wYWNpdHk6MSIgdHJhbnNmb3JtPSJtYXRyaXgoNC40NDQ0NDU5LDAsMCw0LjQ0NDQ0NTksNDIuNjYyMTUyLDMzLjc3NzcwNSkiLz48L2c+PHBhdGggZD0ibSAxOC42OTU3NCw0OTMuMjg3NTEgYyAxMS41Njc5OCwxMS41Njc5IDI3LjU3NjA2LDE4LjcxMjUgNDUuMzA0MDQsMTguNzEyNSBsIDM4NC4wMTI1NSwtMC4wMjkgYyAzNS40NTYsMCA2My45ODc3LC0yOC41MzE2IDYzLjk4NzcsLTYzLjk4NzU5IGwgMCwtMzgzLjk4MzY4NSBjIDAsLTE3LjcyNzk4IC03LjE0NDYsLTMzLjczNjAzIC0xOC43MTI2LC00NS4zMDQwMyBMIDE4LjY5NTc0LDQ5My4yODc1MSB6IiBpZD0icmVjdDI5ODQtMSIgc3R5bGU9ImZpbGw6IzAwMDAwMDtmaWxsLW9wYWNpdHk6MC4zMDE5NjA3ODtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6bm9uZSIvPjwvc3ZnPg=="
+            alt="Resume Link" />
+        </a>
+      </li>
+
+    </ul>
+    <p id="aDropOfWisdom"></p>
   </div>
-  <div id='stars'></div>
-  <div id='stars2'></div>
-  <div id="website_heading">
-    <h1>Fenil Gandhi</h1>
-    <h4 id="quote"></h4>
+
+  <div class="nightSky">
+    <div class='stars-sm'>
+      <div class="one"></div>
+      <div class="two"></div>
+    </div>
+    <div class="stars-md"></div>
   </div>
+  <!--
+{
+  "Email" : {
+    "src": "mailto:hey@fenilgandhi.tech?&body=Hi%20Fenil,",
+    "icon": "",
+    "content": "Contact Me",
+  },
+  "Github": {
+    "src": "",
+    "icon": "",
+    "content": "Github",
+  },
+  "Linkedin": {
+    "src": "https://linkedin.com/in/fenilG",
+    "icon": "",
+    "content": "Linkedin",
+  },
+  "Resume": {
+    "src": "/Resume-Fenil-Gandhi.pdf"",
+    "icon": "",
+    "content": "Resume",
+  },
+}
+ -->
+
+
   <script src="static/main.js"></script>
 </body>
+
 </html>
